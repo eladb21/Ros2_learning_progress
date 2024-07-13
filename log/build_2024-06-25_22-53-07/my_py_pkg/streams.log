@@ -1,0 +1,33 @@
+[0.530s] Invoking command in '/home/elad/ros2_ws/src/build/my_py_pkg': PYTHONPATH=/home/elad/ros2_ws/src/build/my_py_pkg/prefix_override:/home/elad/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/elad/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[0.712s] running develop
+[0.715s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.715s]   warnings.warn(
+[0.808s] running egg_info
+[0.808s] creating my_py_pkg.egg-info
+[0.808s] writing my_py_pkg.egg-info/PKG-INFO
+[0.809s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.809s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.809s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.809s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.809s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.811s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.811s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.813s] running build_ext
+[0.813s] Creating /home/elad/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.813s] Installing add_two_ints_client script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.814s] Installing add_two_ints_client_no_oop script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.814s] Installing add_two_ints_server script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.814s] Installing number_counter script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.814s] Installing number_publisher script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.814s] Installing py_node script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.815s] Installing robot_news_station script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.815s] Installing smartphone script to /home/elad/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.815s] 
+[0.815s] Installed /home/elad/ros2_ws/src/build/my_py_pkg
+[0.815s] running symlink_data
+[0.815s] creating /home/elad/ros2_ws/src/install/my_py_pkg/share/ament_index
+[0.815s] creating /home/elad/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index
+[0.815s] creating /home/elad/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.816s] symbolically linking /home/elad/ros2_ws/src/build/my_py_pkg/resource/my_py_pkg -> /home/elad/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.816s] symbolically linking /home/elad/ros2_ws/src/build/my_py_pkg/package.xml -> /home/elad/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[0.835s] Invoked command in '/home/elad/ros2_ws/src/build/my_py_pkg' returned '0': PYTHONPATH=/home/elad/ros2_ws/src/build/my_py_pkg/prefix_override:/home/elad/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/elad/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
